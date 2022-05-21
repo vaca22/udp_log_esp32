@@ -194,6 +194,9 @@ void app_main(void)
     wifi_init_sta();
     udp_logging_init("192.168.6.111",1337);
     while(1){
+        ESP_LOGD("fuck","asdf");
+        ESP_LOGI("fuck","asdf");
+        ESP_LOGV("fuck","asdf");
         ESP_LOGE("fuck","asdf");
         vTaskDelay(100);
     }
